@@ -1,5 +1,4 @@
 import csv
-from os import listdir
 
 def wordle_list_to_csv(list, file):
   f = open(file, "w", newline="")
